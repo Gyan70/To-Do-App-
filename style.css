@@ -1,0 +1,47 @@
+
+body{
+    background-color: rgb(236, 228, 245);
+}
+
+h1{
+    border-bottom: 0.3rem solid rebeccapurple;
+}
+h1::first-letter{
+    color: red;
+    margin-left: 5rem;
+}
+h3::first-letter{  
+
+    color: rebeccapurple;
+}
+
+input{
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    border-radius: 1rem;
+}
+h2::first-letter{
+    color: orange;
+}
+.add{
+    background-color: orange;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    border-radius: 1rem;
+
+}
+.com{
+    background-color: green;
+    color: white;
+    border-radius: 1rem;
+    margin-left: 1rem;
+    margin-top: 1rem;
+
+
+}
+.del{
+    background-color: red;
+    color: white;
+    border-radius: 1rem;
+    margin-left: 1rem;
+    margin-top: 1rem;
+
+}
